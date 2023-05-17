@@ -1,6 +1,6 @@
 | Count | Directories | Examples |
 | ----- | ----------- | -------- |
-| 69 | docs | |
+| 68 | docs | |
 | 40 | ui | |
 | 19 | util | |
 | 16 | resource_customizations | |

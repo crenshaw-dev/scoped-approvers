@@ -9,7 +9,7 @@ token=$1
 
 #token=$token bash get-pull-requests.sh
 #token=$token bash get-files.sh
-#token=$token bash get-comments.sh
+token=$token bash get-comments.sh
 bash get-top-level-dirs.sh
 bash get-report.sh
 bash get-proposal.sh

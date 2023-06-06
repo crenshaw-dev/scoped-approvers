@@ -7,7 +7,7 @@ echo "" > open-prs-raw.json
 length=100
 page=1
 while [ $page -lt 11 ]; do
-  curl -s -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/argoproj/argo-cd/pulls?state=all&per_page=100&page=$page" -H "Authorization: Bearer $token" > "open-prs-raw-$page.json"
+  curl -s -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/argoproj/argo-workflows/pulls?state=all&per_page=100&page=$page" -H "Authorization: Bearer $token" > "open-prs-raw-$page.json"
   cat "open-prs-raw-$page.json" >> open-prs-raw.json
   length=$(jq '. | length' "open-prs-raw-$page.json")
   echo "Got $length open PRs"

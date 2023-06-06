@@ -45,3 +45,15 @@ These statistics are in [report.md](report.md) and duplicated here:
    - blakepettersson to Approver for the Docs scope
    - morey-tech to Reviewer for the Docs scope
    - 34fathombelow to Approver for the CI, Dependencies, and Docs scopes
+
+## Pros/Cons
+
+Pros:
+* More PRs get merged.
+* Lower barrier of entry for moving up the "contributor ladder".
+* PR authors feel like their work is being valued.
+
+Cons:
+* Management overhead.
+* CODEOWNERS notifications being noisy.
+* Too many contributors?

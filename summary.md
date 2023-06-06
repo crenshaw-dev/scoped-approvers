@@ -56,4 +56,4 @@ Pros:
 Cons:
 * Management overhead.
 * CODEOWNERS notifications being noisy.
-* Too many contributors?
+* Too many maintainers?

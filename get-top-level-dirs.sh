@@ -6,7 +6,7 @@ jq 'map(
   {
     number: .number,
     # Get the top-level directories for each file. package.json and yarn.lock are treated as their own thing.
-    files: (.files | map(.filename | if (endswith("package.json") or endswith("yarn.lock")) then . else split("/")[0] end) | unique | sort | if (. == ["docs"] or . == ["docs", "USERS.md"] or . == ["USERS.md"]) then . else . - ["docs", "USERS.md"] end)
+    files: (.files | map(.filename | if (endswith("package.json") or endswith("yarn.lock")) then . else (if startswith("workflow/") then (split("/")[:2] | join("/")) else split("/")[0] end) end) | unique | sort | if (. == ["docs"] or . == ["docs", "USERS.md"] or . == ["USERS.md"]) then . else . - ["docs", "USERS.md"] end)
   }
 ) | group_by(.files)
   | map(

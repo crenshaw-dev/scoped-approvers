@@ -384,181 +384,6 @@
     "reviewers": []
   },
   {
-    "count": 121,
-    "numbers": [
-      "11178",
-      "11105",
-      "11075",
-      "11074",
-      "11070",
-      "11056",
-      "11048",
-      "11040",
-      "10995",
-      "10987",
-      "10978",
-      "10974",
-      "10967",
-      "10950",
-      "10944",
-      "10928",
-      "10921",
-      "10919",
-      "10903",
-      "10892",
-      "10886",
-      "10865",
-      "10849",
-      "10831",
-      "10795",
-      "10785",
-      "10745",
-      "10744",
-      "10740",
-      "10735",
-      "10692",
-      "10681",
-      "10664",
-      "10663",
-      "10660",
-      "10530",
-      "10486",
-      "10474",
-      "10473",
-      "10457",
-      "10443",
-      "10430",
-      "10418",
-      "10402",
-      "10361",
-      "10343",
-      "10339",
-      "10334",
-      "10332",
-      "10316",
-      "10274",
-      "10268",
-      "10252",
-      "10243",
-      "10236",
-      "10214",
-      "10195",
-      "10159",
-      "10148",
-      "10087",
-      "10084",
-      "10081",
-      "10047",
-      "10009",
-      "10004",
-      "9983",
-      "9964",
-      "9959",
-      "9949",
-      "9915",
-      "9902",
-      "9878",
-      "9876",
-      "9873",
-      "9870",
-      "9838",
-      "9807",
-      "9787",
-      "9771",
-      "9762",
-      "9753",
-      "9751",
-      "9731",
-      "9715",
-      "9700",
-      "9698",
-      "9690",
-      "9689",
-      "9688",
-      "9687",
-      "9679",
-      "9666",
-      "9661",
-      "9641",
-      "9638",
-      "9583",
-      "9468",
-      "9440",
-      "9422",
-      "9420",
-      "9419",
-      "9409",
-      "9405",
-      "9404",
-      "9385",
-      "9375",
-      "9340",
-      "9339",
-      "9335",
-      "9285",
-      "9284",
-      "9280",
-      "9276",
-      "9249",
-      "9247",
-      "9243",
-      "9241",
-      "9234",
-      "9229",
-      "9186",
-      "9156"
-    ],
-    "files": [
-      "workflow"
-    ],
-    "reviewers": [
-      {
-        "user": "isubasinghe",
-        "count": 6
-      },
-      {
-        "user": "rbreeze",
-        "count": 5
-      },
-      {
-        "user": "tczhao",
-        "count": 4
-      },
-      {
-        "user": "Joibel",
-        "count": 4
-      },
-      {
-        "user": "JPZ13",
-        "count": 4
-      },
-      {
-        "user": "sxllwx",
-        "count": 3
-      },
-      {
-        "user": "maxsxu",
-        "count": 3
-      },
-      {
-        "user": "evgeny-goldin",
-        "count": 3
-      },
-      {
-        "user": "tooptoop4",
-        "count": 2
-      },
-      {
-        "user": "chenyangxueHDU",
-        "count": 2
-      },
-      {
-        "user": "LinuxSuRen",
-        "count": 2
-      }
-    ]
-  },
-  {
     "count": 74,
     "numbers": [
       "11116",
@@ -756,6 +581,76 @@
     ]
   },
   {
+    "count": 48,
+    "numbers": [
+      "11178",
+      "11105",
+      "11075",
+      "11056",
+      "11040",
+      "10995",
+      "10974",
+      "10967",
+      "10944",
+      "10892",
+      "10886",
+      "10849",
+      "10831",
+      "10740",
+      "10735",
+      "10660",
+      "10430",
+      "10418",
+      "10402",
+      "10361",
+      "10343",
+      "10339",
+      "10332",
+      "10274",
+      "10268",
+      "10195",
+      "10148",
+      "10081",
+      "10047",
+      "9983",
+      "9902",
+      "9873",
+      "9787",
+      "9771",
+      "9751",
+      "9700",
+      "9698",
+      "9690",
+      "9661",
+      "9468",
+      "9409",
+      "9405",
+      "9385",
+      "9243",
+      "9241",
+      "9234",
+      "9229",
+      "9186"
+    ],
+    "files": [
+      "workflow/controller"
+    ],
+    "reviewers": [
+      {
+        "user": "rbreeze",
+        "count": 3
+      },
+      {
+        "user": "JPZ13",
+        "count": 3
+      },
+      {
+        "user": "isubasinghe",
+        "count": 2
+      }
+    ]
+  },
+  {
     "count": 40,
     "numbers": [
       "11141",
@@ -809,56 +704,6 @@
       },
       {
         "user": "maxsxu",
-        "count": 2
-      }
-    ]
-  },
-  {
-    "count": 23,
-    "numbers": [
-      "11176",
-      "11151",
-      "11138",
-      "10945",
-      "10926",
-      "10784",
-      "10758",
-      "10685",
-      "10489",
-      "10379",
-      "10307",
-      "10281",
-      "10160",
-      "10097",
-      "10066",
-      "10056",
-      "10028",
-      "10019",
-      "9985",
-      "9984",
-      "9782",
-      "9758",
-      "9213"
-    ],
-    "files": [
-      "test",
-      "workflow"
-    ],
-    "reviewers": [
-      {
-        "user": "isubasinghe",
-        "count": 3
-      },
-      {
-        "user": "rohankmr414",
-        "count": 2
-      },
-      {
-        "user": "dpadhiar",
-        "count": 2
-      },
-      {
-        "user": "GeunSam2",
         "count": 2
       }
     ]
@@ -994,6 +839,106 @@
     ]
   },
   {
+    "count": 15,
+    "numbers": [
+      "11176",
+      "11138",
+      "10945",
+      "10758",
+      "10489",
+      "10307",
+      "10160",
+      "10097",
+      "10066",
+      "10056",
+      "10019",
+      "9985",
+      "9984",
+      "9758",
+      "9213"
+    ],
+    "files": [
+      "test",
+      "workflow/controller"
+    ],
+    "reviewers": [
+      {
+        "user": "GeunSam2",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "count": 13,
+    "numbers": [
+      "10921",
+      "10457",
+      "10252",
+      "10159",
+      "10087",
+      "10004",
+      "9688",
+      "9687",
+      "9440",
+      "9422",
+      "9340",
+      "9285",
+      "9156"
+    ],
+    "files": [
+      "workflow/util"
+    ],
+    "reviewers": [
+      {
+        "user": "isubasinghe",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "count": 13,
+    "numbers": [
+      "11048",
+      "10903",
+      "10681",
+      "10664",
+      "10663",
+      "10443",
+      "9964",
+      "9949",
+      "9876",
+      "9807",
+      "9689",
+      "9679",
+      "9375"
+    ],
+    "files": [
+      "workflow/executor"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 12,
+    "numbers": [
+      "11070",
+      "10795",
+      "10692",
+      "10214",
+      "10084",
+      "9959",
+      "9838",
+      "9420",
+      "9335",
+      "9280",
+      "9276",
+      "9249"
+    ],
+    "files": [
+      "workflow/artifacts"
+    ],
+    "reviewers": []
+  },
+  {
     "count": 12,
     "numbers": [
       "10880",
@@ -1088,6 +1033,22 @@
   {
     "count": 7,
     "numbers": [
+      "10530",
+      "10486",
+      "10334",
+      "10316",
+      "10243",
+      "10236",
+      "9284"
+    ],
+    "files": [
+      "workflow/common"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 7,
+    "numbers": [
       "11097",
       "11092",
       "10938",
@@ -1104,23 +1065,6 @@
   {
     "count": 7,
     "numbers": [
-      "11005",
-      "10639",
-      "10543",
-      "9939",
-      "9499",
-      "9456",
-      "9387"
-    ],
-    "files": [
-      "pkg",
-      "workflow"
-    ],
-    "reviewers": []
-  },
-  {
-    "count": 7,
-    "numbers": [
       "11160",
       "10923",
       "10841",
@@ -1131,6 +1075,22 @@
     ],
     "files": [
       "Makefile"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 6,
+    "numbers": [
+      "11074",
+      "10950",
+      "10919",
+      "10473",
+      "9641",
+      "9638"
+    ],
+    "files": [
+      "workflow/controller",
+      "workflow/validate"
     ],
     "reviewers": []
   },
@@ -1193,6 +1153,20 @@
   {
     "count": 5,
     "numbers": [
+      "9915",
+      "9762",
+      "9753",
+      "9715",
+      "9419"
+    ],
+    "files": [
+      "workflow/validate"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 5,
+    "numbers": [
       "10786",
       "10422",
       "9967",
@@ -1241,38 +1215,6 @@
   {
     "count": 4,
     "numbers": [
-      "10106",
-      "9995",
-      "9686",
-      "9523"
-    ],
-    "files": [
-      "cmd",
-      "test",
-      "workflow"
-    ],
-    "reviewers": []
-  },
-  {
-    "count": 4,
-    "numbers": [
-      "11161",
-      "11100",
-      "11096",
-      "10774"
-    ],
-    "files": [
-      "api",
-      "manifests",
-      "pkg",
-      "sdks",
-      "workflow"
-    ],
-    "reviewers": []
-  },
-  {
-    "count": 4,
-    "numbers": [
       "11036",
       "11035",
       "10470",
@@ -1297,14 +1239,13 @@
   {
     "count": 3,
     "numbers": [
-      "10555",
-      "10424",
-      "10423"
+      "11005",
+      "10639",
+      "9456"
     ],
     "files": [
       "pkg",
-      "test",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1330,34 +1271,93 @@
     "files": [
       "examples",
       "test",
-      "workflow"
-    ],
-    "reviewers": []
-  },
-  {
-    "count": 3,
-    "numbers": [
-      "10141",
-      "9847",
-      "9169"
-    ],
-    "files": [
-      "cmd",
-      "workflow"
+      "workflow/common",
+      "workflow/controller",
+      "workflow/validate"
     ],
     "reviewers": []
   },
   {
     "count": 2,
     "numbers": [
-      "10359",
-      "9665"
+      "10865",
+      "10785"
     ],
     "files": [
-      "util",
-      "workflow"
+      "workflow/templateresolution"
     ],
     "reviewers": []
+  },
+  {
+    "count": 2,
+    "numbers": [
+      "10474",
+      "9583"
+    ],
+    "files": [
+      "workflow/cron"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 2,
+    "numbers": [
+      "10987",
+      "10745"
+    ],
+    "files": [
+      "workflow/common",
+      "workflow/controller",
+      "workflow/validate"
+    ],
+    "reviewers": [
+      {
+        "user": "Joibel",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "count": 2,
+    "numbers": [
+      "10744",
+      "9878"
+    ],
+    "files": [
+      "workflow/common",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 2,
+    "numbers": [
+      "10926",
+      "10784"
+    ],
+    "files": [
+      "test",
+      "workflow/validate"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 2,
+    "numbers": [
+      "10379",
+      "10281"
+    ],
+    "files": [
+      "test",
+      "workflow/common",
+      "workflow/controller"
+    ],
+    "reviewers": [
+      {
+        "user": "isubasinghe",
+        "count": 2
+      }
+    ]
   },
   {
     "count": 2,
@@ -1379,7 +1379,7 @@
     ],
     "files": [
       "server",
-      "workflow"
+      "workflow/util"
     ],
     "reviewers": []
   },
@@ -1398,6 +1398,31 @@
   {
     "count": 2,
     "numbers": [
+      "10543",
+      "9939"
+    ],
+    "files": [
+      "pkg",
+      "workflow/artifacts"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 2,
+    "numbers": [
+      "10555",
+      "10423"
+    ],
+    "files": [
+      "pkg",
+      "test",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 2,
+    "numbers": [
       "9766",
       "9178"
     ],
@@ -1409,13 +1434,14 @@
   {
     "count": 2,
     "numbers": [
-      "9784",
-      "9783"
+      "10106",
+      "9995"
     ],
     "files": [
       "cmd",
-      "pkg",
-      "workflow"
+      "test",
+      "workflow/controller",
+      "workflow/util"
     ],
     "reviewers": []
   },
@@ -1464,23 +1490,6 @@
   {
     "count": 2,
     "numbers": [
-      "9242",
-      "9138"
-    ],
-    "files": [
-      "Makefile",
-      "api",
-      "config",
-      "examples",
-      "manifests",
-      "pkg",
-      "workflow"
-    ],
-    "reviewers": []
-  },
-  {
-    "count": 2,
-    "numbers": [
       "9756",
       "9423"
     ],
@@ -1501,7 +1510,7 @@
     ],
     "files": [
       "Dockerfile",
-      "workflow"
+      "workflow/artifacts"
     ],
     "reviewers": []
   },
@@ -1537,7 +1546,7 @@
     ],
     "files": [
       ".spelling",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1557,7 +1566,128 @@
       "sdks",
       "server",
       "test",
-      "workflow"
+      "workflow/sync"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9404"
+    ],
+    "files": [
+      "workflow/sync"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9731"
+    ],
+    "files": [
+      "workflow/signal"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "10928"
+    ],
+    "files": [
+      "workflow/gccontroller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9666"
+    ],
+    "files": [
+      "workflow/controller",
+      "workflow/sync"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "10009"
+    ],
+    "files": [
+      "workflow/common",
+      "workflow/controller",
+      "workflow/sync"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9247"
+    ],
+    "files": [
+      "workflow/common",
+      "workflow/controller",
+      "workflow/events"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9870"
+    ],
+    "files": [
+      "workflow/artifacts",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "10978"
+    ],
+    "files": [
+      "workflow/artifacts",
+      "workflow/common",
+      "workflow/controller",
+      "workflow/executor"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9339"
+    ],
+    "files": [
+      "workflow/artifactrepositories"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9665"
+    ],
+    "files": [
+      "util",
+      "workflow/util"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "10359"
+    ],
+    "files": [
+      "util",
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1570,7 +1700,7 @@
       "ui/package.json",
       "ui/yarn.lock",
       "util",
-      "workflow"
+      "workflow/artifacts"
     ],
     "reviewers": []
   },
@@ -1589,12 +1719,58 @@
   {
     "count": 1,
     "numbers": [
+      "10685"
+    ],
+    "files": [
+      "test",
+      "workflow/util"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "10028"
+    ],
+    "files": [
+      "test",
+      "workflow/executor"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "11151"
+    ],
+    "files": [
+      "test",
+      "workflow/common",
+      "workflow/controller",
+      "workflow/validate"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9782"
+    ],
+    "files": [
+      "test",
+      "workflow/artifacts"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
       "9532"
     ],
     "files": [
       "test",
       "util",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1633,12 +1809,35 @@
   {
     "count": 1,
     "numbers": [
+      "9499"
+    ],
+    "files": [
+      "pkg",
+      "workflow/util"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9387"
+    ],
+    "files": [
+      "pkg",
+      "workflow/controller",
+      "workflow/validate"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
       "9465"
     ],
     "files": [
       "pkg",
       "ui",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1656,11 +1855,24 @@
   {
     "count": 1,
     "numbers": [
+      "10424"
+    ],
+    "files": [
+      "pkg",
+      "test",
+      "workflow/controller",
+      "workflow/validate"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
       "10734"
     ],
     "files": [
       "persist",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1685,7 +1897,7 @@
       "persist",
       "server",
       "test",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1730,7 +1942,7 @@
       "manifests",
       "pkg",
       "test",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1765,7 +1977,7 @@
     "files": [
       "go.mod",
       "go.sum",
-      "workflow"
+      "workflow/executor"
     ],
     "reviewers": []
   },
@@ -1803,7 +2015,7 @@
       "go.sum",
       "persist",
       "test",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1842,7 +2054,10 @@
       "errors",
       "persist",
       "v3",
-      "workflow"
+      "workflow/common",
+      "workflow/controller",
+      "workflow/util",
+      "workflow/validate"
     ],
     "reviewers": []
   },
@@ -1863,7 +2078,7 @@
     ],
     "files": [
       "config",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1905,12 +2120,71 @@
   {
     "count": 1,
     "numbers": [
+      "9847"
+    ],
+    "files": [
+      "cmd",
+      "workflow/util"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "10141"
+    ],
+    "files": [
+      "cmd",
+      "workflow/executor"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9169"
+    ],
+    "files": [
+      "cmd",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
       "9729"
     ],
     "files": [
       "cmd",
       "util",
-      "workflow"
+      "workflow/controller",
+      "workflow/executor"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9523"
+    ],
+    "files": [
+      "cmd",
+      "test",
+      "workflow/executor"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9686"
+    ],
+    "files": [
+      "cmd",
+      "test",
+      "workflow/common",
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -1923,7 +2197,9 @@
       "cmd",
       "server",
       "util",
-      "workflow"
+      "workflow/controller",
+      "workflow/cron",
+      "workflow/util"
     ],
     "reviewers": []
   },
@@ -1935,6 +2211,33 @@
     "files": [
       "cmd",
       "server"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9783"
+    ],
+    "files": [
+      "cmd",
+      "pkg",
+      "workflow/common",
+      "workflow/executor"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9784"
+    ],
+    "files": [
+      "cmd",
+      "pkg",
+      "workflow/common",
+      "workflow/controller",
+      "workflow/executor"
     ],
     "reviewers": []
   },
@@ -1959,7 +2262,7 @@
       "cmd",
       "manifests",
       "pkg",
-      "workflow"
+      "workflow/common"
     ],
     "reviewers": []
   },
@@ -1986,7 +2289,7 @@
       "go.mod",
       "go.sum",
       "test",
-      "workflow"
+      "workflow/executor"
     ],
     "reviewers": []
   },
@@ -2002,7 +2305,9 @@
       "hack",
       "manifests",
       "pkg",
-      "workflow"
+      "workflow/common",
+      "workflow/controller",
+      "workflow/multicluster"
     ],
     "reviewers": []
   },
@@ -2019,7 +2324,9 @@
       "server",
       "test",
       "util",
-      "workflow"
+      "workflow/artifacts",
+      "workflow/executor",
+      "workflow/util"
     ],
     "reviewers": []
   },
@@ -2032,7 +2339,7 @@
       "cmd",
       "config",
       "examples",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -2090,6 +2397,65 @@
   {
     "count": 1,
     "numbers": [
+      "11096"
+    ],
+    "files": [
+      "api",
+      "manifests",
+      "pkg",
+      "sdks",
+      "workflow/controller",
+      "workflow/sync"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "10774"
+    ],
+    "files": [
+      "api",
+      "manifests",
+      "pkg",
+      "sdks",
+      "workflow/controller",
+      "workflow/metrics"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "11100"
+    ],
+    "files": [
+      "api",
+      "manifests",
+      "pkg",
+      "sdks",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "11161"
+    ],
+    "files": [
+      "api",
+      "manifests",
+      "pkg",
+      "sdks",
+      "workflow/artifacts",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
       "10255"
     ],
     "files": [
@@ -2098,7 +2464,7 @@
       "pkg",
       "sdks",
       "ui",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -2113,7 +2479,7 @@
       "pkg",
       "sdks",
       "test",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -2129,7 +2495,7 @@
       "pkg",
       "sdks",
       "test",
-      "workflow"
+      "workflow/gccontroller"
     ],
     "reviewers": []
   },
@@ -2160,7 +2526,8 @@
       "manifests",
       "pkg",
       "sdks",
-      "workflow"
+      "workflow/controller",
+      "workflow/sync"
     ],
     "reviewers": []
   },
@@ -2175,7 +2542,8 @@
       "pkg",
       "sdks",
       "server",
-      "workflow"
+      "workflow/controller",
+      "workflow/util"
     ],
     "reviewers": []
   },
@@ -2221,7 +2589,11 @@
       "pkg",
       "sdks",
       "ui",
-      "workflow"
+      "workflow/common",
+      "workflow/controller",
+      "workflow/executor",
+      "workflow/progress",
+      "workflow/validate"
     ],
     "reviewers": []
   },
@@ -2239,7 +2611,8 @@
       "sdks",
       "test",
       "ui",
-      "workflow"
+      "workflow/common",
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -2263,7 +2636,9 @@
       "persist",
       "pkg",
       "server",
-      "workflow"
+      "workflow/artifactrepositories",
+      "workflow/executor",
+      "workflow/sync"
     ],
     "reviewers": []
   },
@@ -2277,7 +2652,7 @@
       "api",
       "pkg",
       "sdks",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -2299,6 +2674,39 @@
   {
     "count": 1,
     "numbers": [
+      "9138"
+    ],
+    "files": [
+      "Makefile",
+      "api",
+      "config",
+      "examples",
+      "manifests",
+      "pkg",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
+      "9242"
+    ],
+    "files": [
+      "Makefile",
+      "api",
+      "config",
+      "examples",
+      "manifests",
+      "pkg",
+      "workflow/common",
+      "workflow/controller"
+    ],
+    "reviewers": []
+  },
+  {
+    "count": 1,
+    "numbers": [
       "10050"
     ],
     "files": [
@@ -2310,7 +2718,9 @@
       "hack",
       "manifests",
       "pkg",
-      "workflow"
+      "workflow/common",
+      "workflow/controller",
+      "workflow/multicluster"
     ],
     "reviewers": []
   },
@@ -2322,7 +2732,7 @@
     "files": [
       "Dockerfile",
       "test",
-      "workflow"
+      "workflow/executor"
     ],
     "reviewers": []
   },
@@ -2347,7 +2757,7 @@
       "Dockerfile.windows",
       "go.mod",
       "go.sum",
-      "workflow"
+      "workflow/executor"
     ],
     "reviewers": []
   },
@@ -2362,7 +2772,7 @@
       "cmd",
       "go.mod",
       "go.sum",
-      "workflow"
+      "workflow/executor"
     ],
     "reviewers": []
   },
@@ -2435,7 +2845,9 @@
       "server",
       "test",
       "util",
-      "workflow"
+      "workflow/artifacts",
+      "workflow/executor",
+      "workflow/util"
     ],
     "reviewers": []
   },
@@ -2452,7 +2864,9 @@
       "server",
       "test",
       "util",
-      "workflow"
+      "workflow/controller",
+      "workflow/executor",
+      "workflow/templateresolution"
     ],
     "reviewers": []
   },
@@ -2609,7 +3023,8 @@
       "server",
       "test",
       "util",
-      "workflow"
+      "workflow/common",
+      "workflow/controller"
     ],
     "reviewers": []
   },
@@ -2628,7 +3043,7 @@
       "server",
       "test",
       "util",
-      "workflow"
+      "workflow/controller"
     ],
     "reviewers": []
   },

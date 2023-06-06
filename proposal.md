@@ -10,3 +10,4 @@ The Reviewers column shows the top 3 reviewers who have reviewed the most PRs th
 | UI | ui/, ui-test/ | 243 | rbreeze (8), tczhao (6), isubasinghe (3) |
 | Docs | docs/, mkdocs.yml, USERS.md, .spelling | 109 | tico24 (14), caelan-io (11), rohankmr414 (4) |
 | CI | .github/, .goreleaseer.yaml | 40 | rbreeze (3), maxsxu (2) |
+| Controller | workflow/controller/ | 48 | rbreeze (3), JPZ13 (3), isubasinghe (2) |

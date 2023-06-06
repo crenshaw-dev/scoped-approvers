@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 
-echo '| Role name | Owns | Count |' > proposal.md
-echo '| --------- | ---- | ----- |' >> proposal.md
-jq 'map(select(.files == ["docs"] or .files == ["USERS.md"])) | "| Docs | docs/, USERS.md | \(map(.count) | add) |"' -r pr-files-counts.json >> proposal.md
-jq 'map(select(.files == ["ui"] or .files == ["ui-test"] or .files == ["docs", "ui"])) | "| UI | docs/, ui/, ui-test/ | \(map(.count) | add) |"' -r pr-files-counts.json >> proposal.md
-jq 'map(select(.files == ["cmd"] or .files == ["cmd", "docs"] or .files == ["cmd", "docs", "test"])) | "| CLI | docs/, cmd/, test/ | \(map(.count) | add) |"' -r pr-files-counts.json >> proposal.md
-jq 'map(select(.files == ["resource_customizations"])) | "| Resource Customizations | resource_customizations/ | \(map(.count) | add) |"' -r pr-files-counts.json >> proposal.md
-jq 'map(select(.files == ["go.mod"] or .files == ["go.sum"] or .files == ["go.mod", "go.sum"])) | "| Dependencies | go.mod, go.sum | \(map(.count) | add) |"' -r pr-files-counts.json >> proposal.md
-jq 'map(select(.files == [".github"] or .files == [".github", "docs"] or .fioes == [".github", ".goreleaser.yaml"])) | "| CI | docs/, .github/, .goreleaseer.yaml | \(map(.count) | add) |"' -r pr-files-counts.json >> proposal.md
-# Total of all the above
-jq 'map(select(.files == ["docs"] or .files == ["USERS.md"] or .files == ["ui"] or .files == ["ui-test"] or .files == ["docs", "ui"] or .files == ["cmd"] or .files == ["cmd", "docs"] or .files == ["cmd", "docs", "test"] or .files == ["resource_customizations"] or .files == ["go.mod"] or .files == ["go.sum"] or .files == ["go.mod", "go.sum"] or .files == [".github"] or .files == [".github", "docs"] or .fioes == [".github", ".goreleaser.yaml"])) | "| Total | | \(map(.count) | add) |"' -r pr-files-counts.json >> proposal.md
+echo "# Proposed Scopes" > proposal.md
+echo "" >> proposal.md
+echo "The Count column shows how many of the 1000 most recent PRs touch _only_ the listed files/directories." >> proposal.md
+echo "" >> proposal.md
+echo "The Reviewers column shows the top 3 reviewers who have reviewed the most PRs that touch the listed files/directories." >> proposal.md
+echo "" >> proposal.md
+echo '| Role name | Owns | Count | Reviewers |' >> proposal.md
+echo '| --------- | ---- | ----- | --------- |' >> proposal.md
+jq 'map(select(.files == ["docs"] or .files == ["USERS.md"] or .files == ["mkdocs.yml"] or .files == ["docs", "mkdocs.yml"])) | "| Docs | docs/, mkdocs.yml, USERS.md | \(map(.count) | add) | \(map(.reviewers) | flatten | group_by(.user) | map({user: .[0].user, count: (map(.count) | add)}) | sort_by(.count) | reverse | .[:3] | map("\(.user) (\(.count))") | join(", ")) |"' -r pr-files-counts.json >> proposal.md
+jq 'map(select(.files == ["ui"] or .files == ["ui-test"] or .files == ["docs", "ui"] or .files == ["ui/package.json"] or .files == ["ui/yarn.lock"] or .files == ["ui/package.json", "ui/yarn.lock"])) | "| UI | ui/, ui-test/ | \(map(.count) | add) | \(map(.reviewers) | flatten | group_by(.user) | map({user: .[0].user, count: (map(.count) | add)}) | sort_by(.count) | reverse | .[:3] | map("\(.user) (\(.count))") | join(", ")) |"' -r pr-files-counts.json >> proposal.md
+jq 'map(select(.files == ["go.mod"] or .files == ["go.sum"] or .files == ["go.mod", "go.sum"] or .files == ["ui/package.json"] or .files == ["ui/yarn.lock"] or .files == ["ui/package.json", "ui/yarn.lock"])) | "| Dependencies | go.mod, go.sum, ui/package.json, ui/yarn.lock | \(map(.count) | add) | \(map(.reviewers) | flatten | group_by(.user) | map({user: .[0].user, count: (map(.count) | add)}) | sort_by(.count) | reverse | .[:3] | map("\(.user) (\(.count))") | join(", ")) |"' -r pr-files-counts.json >> proposal.md
+jq 'map(select(.files == [".github"] or .files == [".github", "docs"] or .fioes == [".github", ".goreleaser.yaml"])) | "| CI | .github/, .goreleaseer.yaml | \(map(.count) | add) | \(map(.reviewers) | flatten | group_by(.user) | map({user: .[0].user, count: (map(.count) | add)}) | sort_by(.count) | reverse | .[:3] | map("\(.user) (\(.count))") | join(", ")) |"' -r pr-files-counts.json >> proposal.md
+jq 'map(select(.files == ["applicationset"] or .files == ["applicationset", "docs"])) | "| ApplicationSet | pplicationset/ | \(map(.count) | add) | \(map(.reviewers) | flatten | group_by(.user) | map({user: .[0].user, count: (map(.count) | add)}) | sort_by(.count) | reverse | .[:3] | map("\(.user) (\(.count))") | join(", ")) |"' -r pr-files-counts.json >> proposal.md

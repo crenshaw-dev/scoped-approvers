@@ -15,7 +15,7 @@ jq 'map(
       numbers: map(.number),
       files: .[0].files,
       reviewers: (
-        ((map(.number) as $numbers | $reviewers_by_pr | map(select(.number as $number | $numbers | contains([$number])) | .users))) as $all_users | $all_users
+        ((map(.number) as $numbers | $reviewers_by_pr[0] | map(select(.number as $number | $numbers | contains([$number])) | .users))) as $all_users | $all_users
         | flatten | sort | unique |
           map({
               user: .,
@@ -24,4 +24,4 @@ jq 'map(
           ) | sort_by(.count) | reverse
         )
   }
-) | sort_by(.count) | reverse' open-prs-files.json --argfile reviewers_by_pr reviewers-by-pr.json > pr-files-counts.json
+) | sort_by(.count) | reverse' open-prs-files.json --slurpfile reviewers_by_pr reviewers-by-pr.json > pr-files-counts.json

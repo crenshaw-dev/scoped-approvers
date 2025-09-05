@@ -6,8 +6,8 @@ The Reviewers column shows the top 3 reviewers who have reviewed the most PRs th
 
 | Role name | Owns | Count | Reviewers |
 | --------- | ---- | ----- | --------- |
-| Docs | docs/, mkdocs.yml, USERS.md | 234 | blakepettersson (38), morey-tech (12), 34fathombelow (8) |
-| UI | ui/, ui-test/ | 123 | n9 (5), ashutosh16 (5), alexef (5) |
-| Dependencies | go.mod, go.sum, ui/package.json, ui/yarn.lock | 117 |  |
-| CI | .github/, .goreleaseer.yaml | 66 | 34fathombelow (17), morey-tech (2), blakepettersson (2) |
-| ApplicationSet | applicationset/ | 45 | ishitasequeira (6) |
+| Docs | docs/, mkdocs.yml, USERS.md | 58 | todaywasawesome (9), nitishfy (9), agaudreault (6) |
+| UI | ui/, ui-test/ | 75 | andrii-korotkov (11), andrii-korotkov-verkada (10), nitishfy (8) |
+| Dependencies | go.mod, go.sum, ui/package.json, ui/yarn.lock | 15 | ishitasequeira (2) |
+| CI | .github/, .goreleaseer.yaml | 9 |  |
+| ApplicationSet | applicationset/ | 18 | andrii-korotkov-verkada (2) |
